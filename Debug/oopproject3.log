@@ -1,0 +1,23 @@
+﻿networknew.obj : error LNK2005: "public: __thiscall Network::Network(class Network const &)" (??0Network@@QAE@ABV0@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: __thiscall Network::Network(int)" (??0Network@@QAE@H@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: __thiscall Network::Network(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Network@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: __thiscall Network::Network(void)" (??0Network@@QAE@XZ) already defined in network.obj
+networknew.obj : error LNK2005: "public: __thiscall Network::~Network(void)" (??1Network@@QAE@XZ) already defined in network.obj
+networknew.obj : error LNK2005: "public: class Network const & __thiscall Network::operator=(class Network const &)" (??4Network@@QAEABV0@ABV0@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Network const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVNetwork@@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: struct Network::Computer & __thiscall Network::operator[](int)" (??ANetwork@@QAEAAUComputer@0@H@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class Network __thiscall Network::operator*(class Network const &)" (??DNetwork@@QAE?AV0@ABV0@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class Network __thiscall Network::operator++(int)" (??ENetwork@@QAE?AV0@H@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class Network __thiscall Network::operator-(class Network const &)" (??GNetwork@@QAE?AV0@ABV0@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class Network __thiscall Network::operator-(void)" (??GNetwork@@QAE?AV0@XZ) already defined in network.obj
+networknew.obj : error LNK2005: "public: class Network __thiscall Network::operator+(class Network const &)" (??HNetwork@@QAE?AV0@ABV0@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: void __thiscall Network::addConnection(struct Network::Computer * &,int)" (?addConnection@Network@@QAEXAAPAUComputer@1@H@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: void __thiscall Network::addConnection(int,int)" (?addConnection@Network@@QAEXHH@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class std::vector<int,class std::allocator<int> > __thiscall Network::fill(void)" (?fill@Network@@QAE?AV?$vector@HV?$allocator@H@std@@@std@@XZ) already defined in network.obj
+networknew.obj : error LNK2005: "public: class std::vector<int,class std::allocator<int> > __thiscall Network::getNeighbors(int)" (?getNeighbors@Network@@QAE?AV?$vector@HV?$allocator@H@std@@@std@@H@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class std::vector<int,class std::allocator<int> > __thiscall Network::getNeighborsOfNeighbors(int)" (?getNeighborsOfNeighbors@Network@@QAE?AV?$vector@HV?$allocator@H@std@@@std@@H@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class std::vector<int,class std::allocator<int> > __thiscall Network::orderOfDegree(void)" (?orderOfDegree@Network@@QAE?AV?$vector@HV?$allocator@H@std@@@std@@XZ) already defined in network.obj
+networknew.obj : error LNK2005: "public: bool __thiscall Network::subNetwork(class Network &)" (?subNetwork@Network@@QAE_NAAV1@@Z) already defined in network.obj
+networknew.obj : error LNK2005: "public: class std::vector<int,class std::allocator<int> > __thiscall Network::suggestConnection(void)" (?suggestConnection@Network@@QAE?AV?$vector@HV?$allocator@H@std@@@std@@XZ) already defined in network.obj
+networknew.obj : error LNK2005: _main already defined in network.obj
+C:\Users\nabee\Desktop\OOP\PROJECTS\PROJECT3\oopproject3\Debug\oopproject3.exe : fatal error LNK1169: one or more multiply defined symbols found
